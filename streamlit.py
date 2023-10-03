@@ -13,14 +13,14 @@ import streamlit as st
 model = pickle.load(open('CatboostClassifier.pkl', 'rb'))
 
 
-st.title('Prostate Cancer Prediction System')
+st.title('Early Detection Prostate Cancer')
 html_temp = """
     <h3 style="color:white;text-align:center;">By Jatau Abel</h3>
     <div style="background-color:brown;padding:10px;margin-bottom:3rem">
         <p style="text-align:justify;">
             Prostate cancer is a cancer that develops in the Prostate Gland, which controls the flow of urine or semen from the reproductive organ of the male reproductive system. <br> 
                 <br>
-                This system can predict between the two types of Prostate cancer (Benign = B, Malignant = M), all you need do is to supply the required information. <br>
+                This system can detect between the two types of Prostate cancer (Benign = B, Malignant = M), all you need do is to supply the required information. <br>
                 All you need to do is fill the form below:
         </p>  
     </div>
