@@ -1,0 +1,1 @@
+streamlit run "C:\Users\SHOPINVERSE\Documents\Jobs_Folder\Prostate cancer\deployment\streamlit.py"
